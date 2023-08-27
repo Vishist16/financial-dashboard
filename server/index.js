@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
 
 
-// Mongoose setup
+// Mongoose setup // comment for github
 const PORT = process.env.PORT || 9000;
 mongoose
     .connect(process.env.MONGO_URL, {
